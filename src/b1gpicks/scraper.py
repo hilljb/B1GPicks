@@ -278,49 +278,9 @@ class Scraper:
             time.sleep(delay)
         
         soup = self.get_soup(game_url)
-        percentages = []
+        
+        # Extract team names from the page title
         team_names = []
-        
-        # Method 1: Look for percentages in text with % symbol
-        percent_elements = soup.find_all(string=re.compile(r'\d+\.?\d*%'))
-        for elem in percent_elements:
-            match = re.search(r'(\d+\.?\d*)%', str(elem))
-            if match:
-                try:
-                    pct = float(match.group(1))
-                    if 0 <= pct <= 100:  # Sanity check
-                        percentages.append(pct)
-                except ValueError:
-                    continue
-        
-        # Method 2: Look for SVG elements with value attributes (ESPN uses this for predictor circles)
-        if len(percentages) < 2:
-            svg_elements = soup.find_all(['path', 'circle'], value=True)
-            for elem in svg_elements:
-                value = elem.get('value', '')
-                try:
-                    pct = float(value)
-                    if 0 <= pct <= 100:
-                        percentages.append(pct)
-                except ValueError:
-                    continue
-        
-        # Method 3: Look in embedded JSON data
-        if len(percentages) < 2:
-            scripts = soup.find_all('script')
-            for script in scripts:
-                if script.string and 'winPercentage' in script.string:
-                    # Try to extract win percentage values
-                    matches = re.findall(r'"winPercentage["\s:]+(\d+\.?\d*)', script.string)
-                    for match in matches:
-                        try:
-                            pct = float(match)
-                            if 0 <= pct <= 100:
-                                percentages.append(pct)
-                        except ValueError:
-                            continue
-        
-        # Extract team names from the page title or h1
         title = soup.find('title')
         if title:
             title_text = title.get_text()
@@ -338,16 +298,84 @@ class Scraper:
                 if match:
                     team_names = [match.group(1).strip(), match.group(2).strip()]
         
-        # If we found exactly 2 percentages and team names, return the data
+        # Method 1: Look for mtchpPrdctr JSON data (most reliable)
+        import json
+        scripts = soup.find_all('script')
+        for script in scripts:
+            if script.string and 'mtchpPrdctr' in script.string:
+                try:
+                    # Extract the JSON object containing mtchpPrdctr
+                    script_text = script.string
+                    # Find mtchpPrdctr section
+                    mtch_match = re.search(r'"mtchpPrdctr"\s*:\s*(\{[^}]*"teams"\s*:\s*\[[^\]]+\][^}]*\})', script_text)
+                    if mtch_match:
+                        mtch_json_str = mtch_match.group(1)
+                        mtch_data = json.loads(mtch_json_str)
+                        teams = mtch_data.get('teams', [])
+                        
+                        if len(teams) >= 2:
+                            # Extract percentages and determine which team is which
+                            away_pct = None
+                            home_pct = None
+                            
+                            for team in teams:
+                                pct = team.get('value') or team.get('percentage')
+                                is_home = team.get('isHome', False)
+                                
+                                if pct is not None:
+                                    if is_home:
+                                        home_pct = float(pct)
+                                    else:
+                                        away_pct = float(pct)
+                            
+                            if away_pct is not None and home_pct is not None and len(team_names) == 2:
+                                return {
+                                    'away_team': team_names[0],
+                                    'home_team': team_names[1],
+                                    'away_win_pct': away_pct,
+                                    'home_win_pct': home_pct
+                                }
+                except (json.JSONDecodeError, KeyError, ValueError):
+                    continue
+        
+        # Method 2: Look for matchupPredictor divs with specific classes
+        predictor_divs = soup.find_all('div', class_=re.compile(r'matchupPredictor__teamValue'))
+        percentages = []
+        
+        for div in predictor_divs:
+            # Get the text content and look for numbers
+            text = div.get_text()
+            match = re.search(r'(\d+\.?\d*)', text)
+            if match:
+                try:
+                    pct = float(match.group(1))
+                    if 0 <= pct <= 100:
+                        percentages.append(pct)
+                except ValueError:
+                    continue
+        
+        # Method 3: Look for SVG path elements with value attribute in predictor section
+        if len(percentages) < 2:
+            svg_paths = soup.find_all('path', value=True)
+            for path in svg_paths:
+                value = path.get('value', '')
+                try:
+                    pct = float(value)
+                    if 0 <= pct <= 100:
+                        percentages.append(pct)
+                except ValueError:
+                    continue
+        
+        # If we found exactly 2 percentages and team names
         if len(percentages) >= 2 and len(team_names) == 2:
-            # ESPN's SVG elements show home team first, away team second
-            # But team_names from title are in "Away @ Home" format
-            # So we need to swap the percentages to match
+            # The percentages are in the order they appear in the HTML
+            # First percentage is for the away team (appears on left)
+            # Second percentage is for the home team (appears on right)
             return {
                 'away_team': team_names[0],
                 'home_team': team_names[1],
-                'away_win_pct': percentages[1],  # Second percentage is away team
-                'home_win_pct': percentages[0]   # First percentage is home team
+                'away_win_pct': percentages[0],
+                'home_win_pct': percentages[1]
             }
         
         return None
