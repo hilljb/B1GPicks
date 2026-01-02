@@ -281,29 +281,32 @@ class Scraper:
         percentages = []
         team_names = []
         
-        # Method 1: Look for percentages in text with % symbol
-        percent_elements = soup.find_all(string=re.compile(r'\d+\.?\d*%'))
-        for elem in percent_elements:
-            match = re.search(r'(\d+\.?\d*)%', str(elem))
-            if match:
-                try:
-                    pct = float(match.group(1))
-                    if 0 <= pct <= 100:  # Sanity check
-                        percentages.append(pct)
-                except ValueError:
-                    continue
+        # Method 1 (PRIORITY): Look for SVG elements with value attributes 
+        # ESPN uses this for predictor circles on the game page
+        svg_elements = soup.find_all(['path', 'circle'], value=True)
+        for elem in svg_elements:
+            value = elem.get('value', '')
+            try:
+                pct = float(value)
+                if 0 <= pct <= 100:
+                    percentages.append(pct)
+            except ValueError:
+                continue
         
-        # Method 2: Look for SVG elements with value attributes (ESPN uses this for predictor circles)
+        # Method 2: Look within matchupPredictor div for percentages
         if len(percentages) < 2:
-            svg_elements = soup.find_all(['path', 'circle'], value=True)
-            for elem in svg_elements:
-                value = elem.get('value', '')
-                try:
-                    pct = float(value)
-                    if 0 <= pct <= 100:
-                        percentages.append(pct)
-                except ValueError:
-                    continue
+            predictor_div = soup.find('div', class_=re.compile(r'matchupPredictor'))
+            if predictor_div:
+                percent_elements = predictor_div.find_all(string=re.compile(r'\d+\.?\d*%'))
+                for elem in percent_elements:
+                    match = re.search(r'(\d+\.?\d*)%', str(elem))
+                    if match:
+                        try:
+                            pct = float(match.group(1))
+                            if 0 <= pct <= 100:
+                                percentages.append(pct)
+                        except ValueError:
+                            continue
         
         # Method 3: Look in embedded JSON data
         if len(percentages) < 2:
@@ -340,9 +343,9 @@ class Scraper:
         
         # If we found exactly 2 percentages and team names, return the data
         if len(percentages) >= 2 and len(team_names) == 2:
-            # ESPN's SVG elements show home team first, away team second
+            # ESPN's SVG path elements are in order: home team first, away team second
             # But team_names from title are in "Away @ Home" format
-            # So we need to swap the percentages to match
+            # So percentages[0] = home team, percentages[1] = away team
             return {
                 'away_team': team_names[0],
                 'home_team': team_names[1],
