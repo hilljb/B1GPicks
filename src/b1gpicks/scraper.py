@@ -278,6 +278,35 @@ class Scraper:
             time.sleep(delay)
         
         soup = self.get_soup(game_url)
+        percentages = []
+        team_names = []
+        
+        # Method 1 (PRIORITY): Look for SVG elements with value attributes 
+        # ESPN uses this for predictor circles on the game page
+        svg_elements = soup.find_all(['path', 'circle'], value=True)
+        for elem in svg_elements:
+            value = elem.get('value', '')
+            try:
+                pct = float(value)
+                if 0 <= pct <= 100:
+                    percentages.append(pct)
+            except ValueError:
+                continue
+        
+        # Method 2: Look within matchupPredictor div for percentages
+        if len(percentages) < 2:
+            predictor_div = soup.find('div', class_=re.compile(r'matchupPredictor'))
+            if predictor_div:
+                percent_elements = predictor_div.find_all(string=re.compile(r'\d+\.?\d*%'))
+                for elem in percent_elements:
+                    match = re.search(r'(\d+\.?\d*)%', str(elem))
+                    if match:
+                        try:
+                            pct = float(match.group(1))
+                            if 0 <= pct <= 100:
+                                percentages.append(pct)
+                        except ValueError:
+                            continue
         
         # Extract team names from the page title
         team_names = []
@@ -368,9 +397,9 @@ class Scraper:
         
         # If we found exactly 2 percentages and team names
         if len(percentages) >= 2 and len(team_names) == 2:
-            # The percentages are in the order they appear in the HTML
-            # First percentage is for the away team (appears on left)
-            # Second percentage is for the home team (appears on right)
+            # ESPN's SVG path elements are in order: home team first, away team second
+            # But team_names from title are in "Away @ Home" format
+            # So percentages[0] = home team, percentages[1] = away team
             return {
                 'away_team': team_names[0],
                 'home_team': team_names[1],
