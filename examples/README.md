@@ -1,54 +1,22 @@
 # Examples
 
-This directory contains example scripts demonstrating how to use the B1GPicks scraper.
+## `scrape_predictors.py`
 
-## scrape_predictors.py
-
-Scrapes ESPN game predictor percentages for Big Ten basketball games over the next several days.
-
-### Usage
+Prints Big Ten picks from ESPN's Matchup Predictor. It is a thin wrapper around
+the `b1gpicks` command and accepts the same options.
 
 ```bash
-# Make sure the conda environment is activated
 conda activate b1gpicks
 
-# Run the script
-python examples/scrape_predictors.py
+python examples/scrape_predictors.py                      # current football week
+python examples/scrape_predictors.py --week 6             # a specific week
+python examples/scrape_predictors.py --sport basketball   # next 3 days of basketball
+python examples/scrape_predictors.py --help               # all options
 ```
 
-The script will:
-1. Scrape the schedule for the next 3 days (configurable)
-2. For each game, extract the win probability percentages
-3. Display results in a readable format
-4. Save results to a timestamped JSON file
+Results are printed as a table and saved as JSON in `data/`. Use `--no-save`
+to skip the file, or `-o path.json` to choose where it goes. See the
+[main README](../README.md) for the output format and the Python API.
 
-### Output Format
-
-The script produces both console output and a JSON file with the following structure:
-
-```json
-[
-  {
-    "date": "2025-12-01",
-    "games": [
-      {
-        "away_team": "Campbell",
-        "home_team": "Penn State",
-        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401827278",
-        "away_win_pct": 9.3,
-        "home_win_pct": 90.7
-      }
-    ]
-  }
-]
-```
-
-### Customization
-
-You can modify the script to:
-- Change the number of days to scrape (`num_days` variable)
-- Adjust delay times between requests (be respectful to ESPN's servers)
-- Start from a different date
-- Change the output format
-- Filter or process the data differently
-
+The `game_predictors_*.json` files in this directory are saved output from the
+2025-26 basketball season, kept for reference. They use the older 0.1.0 format.

@@ -4,18 +4,21 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "b1gpicks"
-version = "0.1.0"
-description = "A web scraping package for B1G Picks data"
+version = "0.2.0"
+description = "Big Ten football and basketball picks from ESPN's Matchup Predictor"
 readme = "README.md"
 requires-python = ">=3.11"
 license = {text = "MIT"}
 authors = [
-    {name = "Your Name", email = "your.email@example.com"}
+    {name = "Jason Hill", email = "jason@jasonbhill.com"}
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
 ]
 dependencies = [
     "requests>=2.31.0",
-    "beautifulsoup4>=4.12.0",
-    "lxml>=4.9.0",
 ]
 
 [project.optional-dependencies]
@@ -24,13 +27,15 @@ dev = [
     "pytest-cov>=4.1.0",
 ]
 
+[project.scripts]
+b1gpicks = "b1gpicks.cli:main"
+
 [tool.setuptools.packages.find]
 where = ["src"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]
-python_files = "test_*.py"
-python_classes = "Test*"
-python_functions = "test_*"
-addopts = "-v --cov=b1gpicks --cov-report=term-missing"
-
+addopts = "--cov=b1gpicks --cov-report=term-missing"
+markers = [
+    "network: test makes live requests to espn.com (enable with --run-network)",
+]
