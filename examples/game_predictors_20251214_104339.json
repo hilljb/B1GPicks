@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2025-12-14",
+    "games": [
+      {
+        "away_team": "Texas Southern",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401827008/texas-southern-minnesota",
+        "away_win_pct": 6.0,
+        "home_win_pct": 94.0
+      },
+      {
+        "away_team": "Western Michigan",
+        "home_team": "Iowa",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401823650/w-michigan-iowa",
+        "away_win_pct": 2.0,
+        "home_win_pct": 98.0
+      },
+      {
+        "away_team": "Washington State",
+        "home_team": "USC",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401824140/washington-st-usc",
+        "away_win_pct": 3.8,
+        "home_win_pct": 96.2
+      }
+    ]
+  },
+  {
+    "date": "2025-12-15",
+    "games": []
+  },
+  {
+    "date": "2025-12-16",
+    "games": [
+      {
+        "away_team": "Toledo",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401823472/toledo-michigan-st",
+        "away_win_pct": 2.6,
+        "home_win_pct": 97.4
+      },
+      {
+        "away_team": "Valparaiso",
+        "home_team": "Northwestern",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401822338/valparaiso-northwestern",
+        "away_win_pct": 5.5,
+        "home_win_pct": 94.5
+      }
+    ]
+  }
+]

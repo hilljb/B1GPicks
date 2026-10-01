@@ -1,0 +1,73 @@
+[
+  {
+    "date": "2026-01-03",
+    "games": [
+      {
+        "away_team": "Minnesota",
+        "home_team": "Northwestern",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825415/minnesota-northwestern",
+        "away_win_pct": 25.0,
+        "home_win_pct": 75.0
+      },
+      {
+        "away_team": "UCLA",
+        "home_team": "Iowa",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825414/ucla-iowa",
+        "away_win_pct": 39.6,
+        "home_win_pct": 60.4
+      },
+      {
+        "away_team": "Illinois",
+        "home_team": "Penn State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825416/illinois-penn-state",
+        "away_win_pct": 89.3,
+        "home_win_pct": 10.7
+      },
+      {
+        "away_team": "Purdue",
+        "home_team": "Wisconsin",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825417/purdue-wisconsin",
+        "away_win_pct": 68.3,
+        "home_win_pct": 31.7
+      }
+    ]
+  },
+  {
+    "date": "2026-01-04",
+    "games": [
+      {
+        "away_team": "Washington",
+        "home_team": "Indiana",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825418/washington-indiana",
+        "away_win_pct": 17.1,
+        "home_win_pct": 82.9
+      }
+    ]
+  },
+  {
+    "date": "2026-01-05",
+    "games": [
+      {
+        "away_team": "Nebraska",
+        "home_team": "Ohio State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825420/nebraska-ohio-state",
+        "away_win_pct": 40.6,
+        "home_win_pct": 59.4
+      },
+      {
+        "away_team": "Oregon",
+        "home_team": "Rutgers",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825421/oregon-rutgers",
+        "away_win_pct": 67.3,
+        "home_win_pct": 32.7
+      },
+      {
+        "away_team": "USC",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825419/usc-michigan-st",
+        "away_win_pct": 21.5,
+        "home_win_pct": 78.5
+      }
+    ]
+  }
+]

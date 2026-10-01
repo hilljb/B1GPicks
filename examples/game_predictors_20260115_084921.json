@@ -1,0 +1,71 @@
+[
+  {
+    "date": "2026-01-15",
+    "games": []
+  },
+  {
+    "date": "2026-01-16",
+    "games": []
+  },
+  {
+    "date": "2026-01-17",
+    "games": [
+      {
+        "away_team": "Michigan State",
+        "home_team": "Washington",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825452/michigan-st-washington",
+        "away_win_pct": 63.9,
+        "home_win_pct": 36.1
+      },
+      {
+        "away_team": "Minnesota",
+        "home_team": "Illinois",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825446/minnesota-illinois",
+        "away_win_pct": 7.3,
+        "home_win_pct": 92.7
+      },
+      {
+        "away_team": "UCLA",
+        "home_team": "Ohio State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825449/ucla-ohio-state",
+        "away_win_pct": 41.1,
+        "home_win_pct": 58.9
+      },
+      {
+        "away_team": "Rutgers",
+        "home_team": "Wisconsin",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825453/rutgers-wisconsin",
+        "away_win_pct": 8.2,
+        "home_win_pct": 91.8
+      },
+      {
+        "away_team": "Iowa",
+        "home_team": "Indiana",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825447/iowa-indiana",
+        "away_win_pct": 33.7,
+        "home_win_pct": 66.3
+      },
+      {
+        "away_team": "Michigan",
+        "home_team": "Oregon",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825450/michigan-oregon",
+        "away_win_pct": 88.0,
+        "home_win_pct": 12.0
+      },
+      {
+        "away_team": "Nebraska",
+        "home_team": "Northwestern",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825448/nebraska-northwestern",
+        "away_win_pct": 63.6,
+        "home_win_pct": 36.4
+      },
+      {
+        "away_team": "Purdue",
+        "home_team": "USC",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825451/purdue-usc",
+        "away_win_pct": 75.5,
+        "home_win_pct": 24.5
+      }
+    ]
+  }
+]

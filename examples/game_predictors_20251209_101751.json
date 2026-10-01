@@ -1,0 +1,66 @@
+[
+  {
+    "date": "2025-12-09",
+    "games": [
+      {
+        "away_team": "Villanova",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401823566/villanova-michigan",
+        "away_win_pct": 11.2,
+        "home_win_pct": 88.8
+      },
+      {
+        "away_team": "Illinois",
+        "home_team": "Ohio State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825404/illinois-ohio-state",
+        "away_win_pct": 51.2,
+        "home_win_pct": 48.8
+      },
+      {
+        "away_team": "Penn State",
+        "home_team": "Indiana",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825403/penn-state-indiana",
+        "away_win_pct": 8.9,
+        "home_win_pct": 91.1
+      },
+      {
+        "away_team": "USC",
+        "home_team": "San Diego",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401824114/usc-san-diego",
+        "away_win_pct": 91.5,
+        "home_win_pct": 8.5
+      }
+    ]
+  },
+  {
+    "date": "2025-12-10",
+    "games": [
+      {
+        "away_team": "Minnesota",
+        "home_team": "Purdue",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825406/minnesota-purdue",
+        "away_win_pct": 7.2,
+        "home_win_pct": 92.8
+      },
+      {
+        "away_team": "Wisconsin",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825405/wisconsin-nebraska",
+        "away_win_pct": 46.2,
+        "home_win_pct": 53.8
+      }
+    ]
+  },
+  {
+    "date": "2025-12-11",
+    "games": [
+      {
+        "away_team": "Iowa",
+        "home_team": "Iowa State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401819878/iowa-iowa-state",
+        "away_win_pct": 8.6,
+        "home_win_pct": 91.4
+      }
+    ]
+  }
+]

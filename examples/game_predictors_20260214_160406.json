@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2026-02-14",
+    "games": [
+      {
+        "away_team": "Purdue",
+        "home_team": "Iowa",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825513",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Virginia",
+        "home_team": "Ohio State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401817516/virginia-ohio-state",
+        "away_win_pct": 59.7,
+        "home_win_pct": 40.3
+      },
+      {
+        "away_team": "Minnesota",
+        "home_team": "Washington",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825517/minnesota-washington",
+        "away_win_pct": 27.7,
+        "home_win_pct": 72.4
+      },
+      {
+        "away_team": "UCLA",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825514/ucla-michigan",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Northwestern",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825515/northwestern-nebraska",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Penn State",
+        "home_team": "Oregon",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825516/penn-state-oregon",
+        "away_win_pct": null,
+        "home_win_pct": null
+      }
+    ]
+  },
+  {
+    "date": "2026-02-15",
+    "games": [
+      {
+        "away_team": "Maryland",
+        "home_team": "Rutgers",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825519/maryland-rutgers",
+        "away_win_pct": 52.7,
+        "home_win_pct": 47.3
+      },
+      {
+        "away_team": "Indiana",
+        "home_team": "Illinois",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825518/indiana-illinois",
+        "away_win_pct": 19.7,
+        "home_win_pct": 80.3
+      }
+    ]
+  },
+  {
+    "date": "2026-02-16",
+    "games": []
+  }
+]

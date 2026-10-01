@@ -1,0 +1,101 @@
+[
+  {
+    "date": "2026-03-11",
+    "games": [
+      {
+        "away_team": "Maryland",
+        "home_team": "Iowa",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851365/maryland-iowa",
+        "away_win_pct": 18.2,
+        "home_win_pct": 81.8
+      },
+      {
+        "away_team": "USC",
+        "home_team": "Washington",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851367/usc-washington",
+        "away_win_pct": 42.1,
+        "home_win_pct": 57.9
+      },
+      {
+        "away_team": "Northwestern",
+        "home_team": "Indiana",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851369/northwestern-indiana",
+        "away_win_pct": 30.4,
+        "home_win_pct": 69.5
+      },
+      {
+        "away_team": "Rutgers",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851370/rutgers-minnesota",
+        "away_win_pct": 29.7,
+        "home_win_pct": 70.3
+      }
+    ]
+  },
+  {
+    "date": "2026-03-12",
+    "games": [
+      {
+        "away_team": "Ohio State",
+        "home_team": "12:00 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851375/tbd-ohio-state",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Wisconsin",
+        "home_team": "2:30 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851376/tbd-wisconsin",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Purdue",
+        "home_team": "6:30 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851377/tbd-purdue",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "UCLA",
+        "home_team": "9:00 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851378/tbd-ucla",
+        "away_win_pct": null,
+        "home_win_pct": null
+      }
+    ]
+  },
+  {
+    "date": "2026-03-13",
+    "games": [
+      {
+        "away_team": "Michigan",
+        "home_team": "12:00 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851380/tbd-michigan",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Illinois",
+        "home_team": "2:30 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851381/tbd-illinois",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Nebraska",
+        "home_team": "6:30 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851382/tbd-nebraska",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Michigan State",
+        "home_team": "9:00 PM",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401851383/tbd-michigan-st",
+        "away_win_pct": null,
+        "home_win_pct": null
+      }
+    ]
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2025-12-01",
+    "games": []
+  },
+  {
+    "date": "2025-12-02",
+    "games": [
+      {
+        "away_team": "Campbell",
+        "home_team": "Penn State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401827278/campbell-penn-state",
+        "away_win_pct": 9.3,
+        "home_win_pct": 90.7
+      },
+      {
+        "away_team": "Iowa",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825392/iowa-michigan-st",
+        "away_win_pct": 22.8,
+        "home_win_pct": 77.2
+      },
+      {
+        "away_team": "Purdue",
+        "home_team": "Rutgers",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825393/purdue-rutgers",
+        "away_win_pct": 86.8,
+        "home_win_pct": 13.2
+      },
+      {
+        "away_team": "Wagner",
+        "home_team": "Maryland",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401827217/wagner-maryland",
+        "away_win_pct": 2.1,
+        "home_win_pct": 97.9
+      },
+      {
+        "away_team": "USC",
+        "home_team": "Oregon",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825394/usc-oregon",
+        "away_win_pct": 56.9,
+        "home_win_pct": 43.1
+      }
+    ]
+  },
+  {
+    "date": "2025-12-03",
+    "games": [
+      {
+        "away_team": "Indiana",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825395/indiana-minnesota",
+        "away_win_pct": 81.5,
+        "home_win_pct": 18.4
+      },
+      {
+        "away_team": "Northwestern",
+        "home_team": "Wisconsin",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825397/northwestern-wisconsin",
+        "away_win_pct": 24.3,
+        "home_win_pct": 75.7
+      },
+      {
+        "away_team": "UCLA",
+        "home_team": "Washington",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825396/ucla-washington",
+        "away_win_pct": 65.2,
+        "home_win_pct": 34.8
+      }
+    ]
+  }
+]

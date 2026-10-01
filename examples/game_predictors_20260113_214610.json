@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2026-01-13",
+    "games": [
+      {
+        "away_team": "Maryland",
+        "home_team": "USC",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825441",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Oregon",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825440/oregon-nebraska",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Indiana",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825438/indiana-michigan-st",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Wisconsin",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825439/wisconsin-minnesota",
+        "away_win_pct": null,
+        "home_win_pct": null
+      }
+    ]
+  },
+  {
+    "date": "2026-01-14",
+    "games": [
+      {
+        "away_team": "Iowa",
+        "home_team": "Purdue",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825444/iowa-purdue",
+        "away_win_pct": 17.1,
+        "home_win_pct": 82.9
+      },
+      {
+        "away_team": "Illinois",
+        "home_team": "Northwestern",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825442/illinois-northwestern",
+        "away_win_pct": 74.7,
+        "home_win_pct": 25.3
+      },
+      {
+        "away_team": "UCLA",
+        "home_team": "Penn State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825443/ucla-penn-state",
+        "away_win_pct": 74.2,
+        "home_win_pct": 25.8
+      },
+      {
+        "away_team": "Michigan",
+        "home_team": "Washington",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825445/michigan-washington",
+        "away_win_pct": 82.1,
+        "home_win_pct": 17.9
+      }
+    ]
+  },
+  {
+    "date": "2026-01-15",
+    "games": []
+  }
+]

@@ -1,0 +1,72 @@
+[
+  {
+    "date": "2026-02-21",
+    "games": [
+      {
+        "away_team": "Washington",
+        "home_team": "Maryland",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825529",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Oregon",
+        "home_team": "USC",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825533",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Michigan",
+        "home_team": "Duke",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401817238/michigan-duke",
+        "away_win_pct": 48.7,
+        "home_win_pct": 51.3
+      },
+      {
+        "away_team": "Illinois",
+        "home_team": "UCLA",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825532/illinois-ucla",
+        "away_win_pct": 68.4,
+        "home_win_pct": 31.6
+      },
+      {
+        "away_team": "Penn State",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825531/penn-state-nebraska",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Rutgers",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825530/rutgers-minnesota",
+        "away_win_pct": null,
+        "home_win_pct": null
+      }
+    ]
+  },
+  {
+    "date": "2026-02-22",
+    "games": [
+      {
+        "away_team": "Ohio State",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825534/ohio-state-michigan-st",
+        "away_win_pct": 21.6,
+        "home_win_pct": 78.4
+      },
+      {
+        "away_team": "Iowa",
+        "home_team": "Wisconsin",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825535/iowa-wisconsin",
+        "away_win_pct": 37.5,
+        "home_win_pct": 62.5
+      }
+    ]
+  },
+  {
+    "date": "2026-02-23",
+    "games": []
+  }
+]

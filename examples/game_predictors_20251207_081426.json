@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2025-12-07",
+    "games": [
+      {
+        "away_team": "Creighton",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401820835/creighton-nebraska",
+        "away_win_pct": 36.7,
+        "home_win_pct": 63.3
+      }
+    ]
+  },
+  {
+    "date": "2025-12-08",
+    "games": []
+  },
+  {
+    "date": "2025-12-09",
+    "games": [
+      {
+        "away_team": "Villanova",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401823566/villanova-michigan",
+        "away_win_pct": 11.2,
+        "home_win_pct": 88.8
+      },
+      {
+        "away_team": "Illinois",
+        "home_team": "Ohio State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825404/illinois-ohio-state",
+        "away_win_pct": 50.5,
+        "home_win_pct": 49.5
+      },
+      {
+        "away_team": "Penn State",
+        "home_team": "Indiana",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825403/penn-state-indiana",
+        "away_win_pct": 8.9,
+        "home_win_pct": 91.1
+      },
+      {
+        "away_team": "USC",
+        "home_team": "San Diego",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401824114/usc-san-diego",
+        "away_win_pct": 91.5,
+        "home_win_pct": 8.5
+      }
+    ]
+  }
+]

@@ -1,0 +1,114 @@
+[
+  {
+    "date": "2025-12-12",
+    "games": []
+  },
+  {
+    "date": "2025-12-13",
+    "games": [
+      {
+        "away_team": "Michigan State",
+        "home_team": "Penn State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825409/michigan-st-penn-state",
+        "away_win_pct": 81.2,
+        "home_win_pct": 18.8
+      },
+      {
+        "away_team": "Marquette",
+        "home_team": "Purdue",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401823028/marquette-purdue",
+        "away_win_pct": 8.0,
+        "home_win_pct": 92.0
+      },
+      {
+        "away_team": "Jackson State",
+        "home_team": "Northwestern",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401826935/jackson-st-northwestern",
+        "away_win_pct": 1.5,
+        "home_win_pct": 98.5
+      },
+      {
+        "away_team": "Nebraska",
+        "home_team": "Illinois",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825407/nebraska-illinois",
+        "away_win_pct": 22.7,
+        "home_win_pct": 77.3
+      },
+      {
+        "away_team": "UC Davis",
+        "home_team": "Oregon",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401826090/uc-davis-oregon",
+        "away_win_pct": 7.9,
+        "home_win_pct": 92.1
+      },
+      {
+        "away_team": "Southern Utah",
+        "home_team": "Washington",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401823548/southern-utah-washington",
+        "away_win_pct": 2.3,
+        "home_win_pct": 97.7
+      },
+      {
+        "away_team": "Indiana",
+        "home_team": "Kentucky",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401827208/indiana-kentucky",
+        "away_win_pct": 40.0,
+        "home_win_pct": 60.0
+      },
+      {
+        "away_team": "Michigan",
+        "home_team": "Maryland",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825408/michigan-maryland",
+        "away_win_pct": 84.3,
+        "home_win_pct": 15.7
+      },
+      {
+        "away_team": "Rutgers",
+        "home_team": "Seton Hall",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401826894/rutgers-seton-hall",
+        "away_win_pct": 19.0,
+        "home_win_pct": 81.0
+      },
+      {
+        "away_team": "Ohio State",
+        "home_team": "West Virginia",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401819921/ohio-state-west-virginia",
+        "away_win_pct": 53.2,
+        "home_win_pct": 46.8
+      },
+      {
+        "away_team": "UCLA",
+        "home_team": "Gonzaga",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401813763/ucla-gonzaga",
+        "away_win_pct": 18.5,
+        "home_win_pct": 81.5
+      }
+    ]
+  },
+  {
+    "date": "2025-12-14",
+    "games": [
+      {
+        "away_team": "Texas Southern",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401827008/texas-southern-minnesota",
+        "away_win_pct": 6.0,
+        "home_win_pct": 94.0
+      },
+      {
+        "away_team": "Western Michigan",
+        "home_team": "Iowa",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401823650/w-michigan-iowa",
+        "away_win_pct": 2.0,
+        "home_win_pct": 98.0
+      },
+      {
+        "away_team": "Washington State",
+        "home_team": "USC",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401824140/washington-st-usc",
+        "away_win_pct": 3.8,
+        "home_win_pct": 96.2
+      }
+    ]
+  }
+]

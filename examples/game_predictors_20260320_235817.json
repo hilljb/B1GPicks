@@ -1,0 +1,73 @@
+[
+  {
+    "date": "2026-03-20",
+    "games": [
+      {
+        "away_team": "Queens University",
+        "home_team": "Purdue",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856519/queens-purdue",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "UCF",
+        "home_team": "UCLA",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856496/ucf-ucla",
+        "away_win_pct": null,
+        "home_win_pct": null
+      },
+      {
+        "away_team": "Iowa",
+        "home_team": "Clemson",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856522/iowa-clemson",
+        "away_win_pct": null,
+        "home_win_pct": null
+      }
+    ]
+  },
+  {
+    "date": "2026-03-21",
+    "games": [
+      {
+        "away_team": "Saint Louis",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856532/saint-louis-michigan",
+        "away_win_pct": 16.9,
+        "home_win_pct": 83.1
+      },
+      {
+        "away_team": "Louisville",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856531/louisville-michigan-st",
+        "away_win_pct": 51.0,
+        "home_win_pct": 49.0
+      },
+      {
+        "away_team": "VCU",
+        "home_team": "Illinois",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856533/vcu-illinois",
+        "away_win_pct": 17.6,
+        "home_win_pct": 82.4
+      },
+      {
+        "away_team": "Vanderbilt",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856534/vanderbilt-nebraska",
+        "away_win_pct": 53.2,
+        "home_win_pct": 46.8
+      }
+    ]
+  },
+  {
+    "date": "2026-03-22",
+    "games": [
+      {
+        "away_team": "Purdue",
+        "home_team": "TBD",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856564/tbd-purdue",
+        "away_win_pct": null,
+        "home_win_pct": null
+      }
+    ]
+  }
+]
