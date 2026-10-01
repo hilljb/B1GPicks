@@ -1,0 +1,37 @@
+[
+  {
+    "date": "2026-03-28",
+    "games": [
+      {
+        "away_team": "Iowa",
+        "home_team": "Illinois",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856574/iowa-illinois",
+        "away_win_pct": 25.1,
+        "home_win_pct": 74.9
+      },
+      {
+        "away_team": "Purdue",
+        "home_team": "Arizona",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856575/purdue-arizona",
+        "away_win_pct": 37.0,
+        "home_win_pct": 63.0
+      }
+    ]
+  },
+  {
+    "date": "2026-03-29",
+    "games": [
+      {
+        "away_team": "Tennessee",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856576/tennessee-michigan",
+        "away_win_pct": 31.7,
+        "home_win_pct": 68.3
+      }
+    ]
+  },
+  {
+    "date": "2026-03-30",
+    "games": []
+  }
+]

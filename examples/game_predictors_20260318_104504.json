@@ -1,0 +1,79 @@
+[
+  {
+    "date": "2026-03-18",
+    "games": []
+  },
+  {
+    "date": "2026-03-19",
+    "games": [
+      {
+        "away_team": "TCU",
+        "home_team": "Ohio State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856479/tcu-ohio-state",
+        "away_win_pct": 34.6,
+        "home_win_pct": 65.4
+      },
+      {
+        "away_team": "Troy",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856489/troy-nebraska",
+        "away_win_pct": 7.3,
+        "home_win_pct": 92.7
+      },
+      {
+        "away_team": "High Point",
+        "home_team": "Wisconsin",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856480/high-point-wisconsin",
+        "away_win_pct": 23.7,
+        "home_win_pct": 76.3
+      },
+      {
+        "away_team": "North Dakota State",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856483/n-dakota-st-michigan-st",
+        "away_win_pct": 5.8,
+        "home_win_pct": 94.2
+      },
+      {
+        "away_team": "Howard",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856486/howard-michigan",
+        "away_win_pct": 1.1,
+        "home_win_pct": 98.9
+      },
+      {
+        "away_team": "Pennsylvania",
+        "home_team": "Illinois",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856491/penn-illinois",
+        "away_win_pct": 2.7,
+        "home_win_pct": 97.3
+      }
+    ]
+  },
+  {
+    "date": "2026-03-20",
+    "games": [
+      {
+        "away_team": "Iowa",
+        "home_team": "Clemson",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856522/iowa-clemson",
+        "away_win_pct": 49.4,
+        "home_win_pct": 50.6
+      },
+      {
+        "away_team": "UCF",
+        "home_team": "UCLA",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856496/ucf-ucla",
+        "away_win_pct": 27.8,
+        "home_win_pct": 72.2
+      },
+      {
+        "away_team": "Queens University",
+        "home_team": "Purdue",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856519/queens-purdue",
+        "away_win_pct": 2.2,
+        "home_win_pct": 97.8
+      }
+    ]
+  }
+]

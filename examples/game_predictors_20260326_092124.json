@@ -1,0 +1,51 @@
+[
+  {
+    "date": "2026-03-26",
+    "games": [
+      {
+        "away_team": "Texas",
+        "home_team": "Purdue",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856568/texas-purdue",
+        "away_win_pct": 24.4,
+        "home_win_pct": 75.6
+      },
+      {
+        "away_team": "Iowa",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856567/iowa-nebraska",
+        "away_win_pct": 40.4,
+        "home_win_pct": 59.6
+      },
+      {
+        "away_team": "Illinois",
+        "home_team": "Houston",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856566/illinois-houston",
+        "away_win_pct": 40.7,
+        "home_win_pct": 59.3
+      }
+    ]
+  },
+  {
+    "date": "2026-03-27",
+    "games": [
+      {
+        "away_team": "Alabama",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856572/alabama-michigan",
+        "away_win_pct": 27.4,
+        "home_win_pct": 72.6
+      },
+      {
+        "away_team": "Michigan State",
+        "home_team": "UConn",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401856571/michigan-st-uconn",
+        "away_win_pct": 46.6,
+        "home_win_pct": 53.4
+      }
+    ]
+  },
+  {
+    "date": "2026-03-28",
+    "games": []
+  }
+]

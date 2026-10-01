@@ -1,0 +1,65 @@
+[
+  {
+    "date": "2026-02-23",
+    "games": []
+  },
+  {
+    "date": "2026-02-24",
+    "games": [
+      {
+        "away_team": "Washington",
+        "home_team": "Rutgers",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825538/washington-rutgers",
+        "away_win_pct": 70.0,
+        "home_win_pct": 30.0
+      },
+      {
+        "away_team": "Northwestern",
+        "home_team": "Indiana",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825536/northwestern-indiana",
+        "away_win_pct": 18.2,
+        "home_win_pct": 81.8
+      },
+      {
+        "away_team": "Minnesota",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825537/minnesota-michigan",
+        "away_win_pct": 3.8,
+        "home_win_pct": 96.2
+      },
+      {
+        "away_team": "USC",
+        "home_team": "UCLA",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825539/usc-ucla",
+        "away_win_pct": 22.1,
+        "home_win_pct": 77.8
+      }
+    ]
+  },
+  {
+    "date": "2026-02-25",
+    "games": [
+      {
+        "away_team": "Maryland",
+        "home_team": "Nebraska",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825541/maryland-nebraska",
+        "away_win_pct": 7.4,
+        "home_win_pct": 92.6
+      },
+      {
+        "away_team": "Ohio State",
+        "home_team": "Iowa",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825540/ohio-state-iowa",
+        "away_win_pct": 35.9,
+        "home_win_pct": 64.1
+      },
+      {
+        "away_team": "Wisconsin",
+        "home_team": "Oregon",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825542/wisconsin-oregon",
+        "away_win_pct": 70.7,
+        "home_win_pct": 29.3
+      }
+    ]
+  }
+]

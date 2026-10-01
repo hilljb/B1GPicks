@@ -1,0 +1,30 @@
+[
+  {
+    "date": "2026-03-31",
+    "games": []
+  },
+  {
+    "date": "2026-04-01",
+    "games": [
+      {
+        "away_team": "Baylor",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401858380/baylor-minnesota",
+        "away_win_pct": 65.3,
+        "home_win_pct": 34.7
+      }
+    ]
+  },
+  {
+    "date": "2026-04-02",
+    "games": [
+      {
+        "away_team": "Rutgers",
+        "home_team": "Creighton",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401858382/rutgers-creighton",
+        "away_win_pct": 28.8,
+        "home_win_pct": 71.2
+      }
+    ]
+  }
+]

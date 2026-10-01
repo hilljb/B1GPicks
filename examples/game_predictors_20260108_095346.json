@@ -1,0 +1,73 @@
+[
+  {
+    "date": "2026-01-08",
+    "games": [
+      {
+        "away_team": "Northwestern",
+        "home_team": "Michigan State",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825428/northwestern-michigan-st",
+        "away_win_pct": 17.4,
+        "home_win_pct": 82.6
+      },
+      {
+        "away_team": "Rutgers",
+        "home_team": "Illinois",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825427/rutgers-illinois",
+        "away_win_pct": 3.2,
+        "home_win_pct": 96.8
+      },
+      {
+        "away_team": "Ohio State",
+        "home_team": "Oregon",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825429/ohio-state-oregon",
+        "away_win_pct": 54.4,
+        "home_win_pct": 45.6
+      }
+    ]
+  },
+  {
+    "date": "2026-01-09",
+    "games": [
+      {
+        "away_team": "USC",
+        "home_team": "Minnesota",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825430/usc-minnesota",
+        "away_win_pct": 45.7,
+        "home_win_pct": 54.3
+      }
+    ]
+  },
+  {
+    "date": "2026-01-10",
+    "games": [
+      {
+        "away_team": "Nebraska",
+        "home_team": "Indiana",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825431/nebraska-indiana",
+        "away_win_pct": 29.9,
+        "home_win_pct": 70.1
+      },
+      {
+        "away_team": "Wisconsin",
+        "home_team": "Michigan",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825432/wisconsin-michigan",
+        "away_win_pct": 9.0,
+        "home_win_pct": 91.0
+      },
+      {
+        "away_team": "Penn State",
+        "home_team": "Purdue",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825433/penn-state-purdue",
+        "away_win_pct": 3.4,
+        "home_win_pct": 96.6
+      },
+      {
+        "away_team": "Maryland",
+        "home_team": "UCLA",
+        "game_url": "https://www.espn.com/mens-college-basketball/game/_/gameId/401825434/maryland-ucla",
+        "away_win_pct": 15.2,
+        "home_win_pct": 84.8
+      }
+    ]
+  }
+]
